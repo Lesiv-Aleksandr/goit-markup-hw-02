@@ -1,0 +1,242 @@
+
+:root{
+      
+      --akcent-color:  #2196F3;
+      --background-button: #188CE8;
+}
+body{ 
+      font-family: Roboto;
+      color: #757575;
+}
+
+
+.logo{
+      color: #000000;
+      font-size: 26px;
+      text-decoration: none;
+      font-family: Raleway;
+      font-weight:700;
+            
+}
+.blue-logo{
+      color: var( --akcent-color );
+}
+/*discharge ul */
+.list {
+     list-style: none;
+     text-decoration: none;
+     font-style: normal;
+
+     
+       
+}
+.list-href{
+       color: #212121;
+       font-style: normal;
+       text-decoration: none;
+       font-weight: 500;
+       letter-spacing: 0.02em;
+       text-align: left;
+       font-size: 14px;
+
+}
+       
+.contacts-heder:hover,
+.contacts-heder:focus{
+      color: var( --akcent-color );
+} 
+.list-href:hover,
+.list-href:focus{
+      color: var( --akcent-color );
+}
+
+
+.contacts-heder{
+      color: #757575;
+      font-size: 14px;   
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.15;
+      letter-spacing: 0.02em;
+      text-align: left;
+
+      
+
+}
+
+.lisn-hiro{
+      background-color: #2F303A;  
+
+}
+
+.hiro {
+font-style: normal;
+font-size: 44px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+/*-------button order-service-------*/
+
+.order-service{
+      color: #FFFFFF;
+      background-color:var( --akcent-color );#2196F3;
+      font-size: 16px;
+      font-weight: 700;
+      width: 200px;
+      height: 50px;
+      text-align:center;
+      cursor: pointer;
+
+}
+.order-service:hover{
+       background-color: var(--background-button);
+}
+
+
+.list-of-benefits{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+}
+.description {
+    
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: #757575;
+
+}
+
+.title {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.2;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
+
+}
+
+/*////////Список разработчиков */
+
+.team-list{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.2;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
+
+}
+.position {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 1.2;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #757575;
+}
+.developer-card {
+      
+}
+/*/////address-footer/////*/
+
+.contacts-footer{
+      
+      width: 1600px;
+      height: 252px;
+      left: 0px;
+      top: 2097px;
+      background: #2F303A;
+}     
+
+.logo-footer{
+      color: #FFFFFF;
+      font-size: 26px;
+      text-decoration: none;
+      font-family: Raleway;
+      font-weight:bold;
+}
+.address-link {
+      
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+      text-decoration: none;
+      
+}
+.address-link:hover,
+.address-link:focus{
+       color: var(--akcent-color);
+}
+.link-contacts:focus,
+.link-contacts:hover {
+      color: var(--akcent-color);
+}
+
+.link-contacts {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      font-style: none;
+
+}
+
+/*/////list-portfolio/////*/
+
+.sorting {
+      
+      background-color: #F5F4FA;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.62;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
+      border: none;
+      cursor: pointer;
+
+Значения
+}
+
+.sorting:hover,
+.sorting:focus {
+      color: #FFFFFF;
+      background-color: #2196F3;
+}
+.projects-list{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 2;
+      letter-spacing: 0.06em;
+      color: #212121;
+}
+.service-list{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.03em;
+      color: #757575;
+
+}
