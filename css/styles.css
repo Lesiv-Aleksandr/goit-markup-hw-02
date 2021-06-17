@@ -51,7 +51,7 @@ body{
 }
 
 
-.contacts-heder{
+.contacts-heder {
       color: #757575;
       font-size: 14px;   
       text-decoration: none;
@@ -82,7 +82,7 @@ color: #FFFFFF;
 
 .order-service{
       color: #FFFFFF;
-      background-color:var( --akcent-color );#2196F3;
+      background-color:var( --akcent-color );
       font-size: 16px;
       font-weight: 700;
       width: 200px;
@@ -193,7 +193,7 @@ color: #FFFFFF;
 .link-contacts {
       color: rgba(255, 255, 255, 0.6);
       text-decoration: none;
-      font-style: none;
+      font-style: normal ;
 
 }
 
@@ -212,8 +212,6 @@ color: #FFFFFF;
       color: #212121;
       border: none;
       cursor: pointer;
-
-Значения
 }
 
 .sorting:hover,
