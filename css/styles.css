@@ -3,6 +3,7 @@
       
       --akcent-color:  #2196F3;
       --background-button: #188CE8;
+      --color-of-headers: #212121;
 }
 body{ 
       font-family: Roboto;
@@ -30,8 +31,8 @@ body{
      
        
 }
-.list-href{
-       color: #212121;
+.menu{
+       color: var(--color-of-headers );
        font-style: normal;
        text-decoration: none;
        font-weight: 500;
@@ -40,15 +41,13 @@ body{
        font-size: 14px;
 
 }
-       
-.contacts-heder:hover,
-.contacts-heder:focus{
-      color: var( --akcent-color );
-} 
-.list-href:hover,
-.list-href:focus{
+     
+.menu:hover,
+.menu:focus{
       color: var( --akcent-color );
 }
+
+
 
 
 .contacts-heder {
@@ -60,23 +59,35 @@ body{
       line-height: 1.15;
       letter-spacing: 0.02em;
       text-align: left;
-
-      
-
+     
 }
+.contacts-heder:hover,
+.contacts-heder:focus{
+      color: var( --akcent-color );
+} 
 
 .lisn-hiro{
-      background-color: #2F303A;  
-
+      background: #2F303A;  
+      
 }
+     
 
 .hiro {
-font-style: normal;
-font-size: 44px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+      font-style: normal;
+      font-size: 44px;
+      line-height:1.36;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      white-space:pre-line;
+     
+}
+
+.nav-list {
+     
+
+      background: #FFFFFF;      
 }
 /*-------button order-service-------*/
 
@@ -84,11 +95,18 @@ color: #FFFFFF;
       color: #FFFFFF;
       background-color:var( --akcent-color );
       font-size: 16px;
+      line-height: 1.87;
       font-weight: 700;
       width: 200px;
       height: 50px;
       text-align:center;
       cursor: pointer;
+      
+      
+      
+     
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
 
 }
 .order-service:hover{
@@ -103,6 +121,7 @@ color: #FFFFFF;
       line-height: 1.2;
       letter-spacing: 0.03em;
       text-transform: uppercase;
+      color: var( --color-of-headers);
 }
 .description {
     
@@ -130,7 +149,7 @@ color: #FFFFFF;
 /*////////Список разработчиков */
 
 .team-list{
-      font-family: Roboto;
+     
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
